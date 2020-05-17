@@ -17,9 +17,6 @@ public class Sistema  {
 	
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.setLocationRelativeTo(null);
-		
 		Navegador.login();
-		frame.setVisible(true);
-		
 	}
 }

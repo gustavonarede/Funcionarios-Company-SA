@@ -78,7 +78,7 @@ public class FuncionarioInserir<E> extends JPanel {
 		;
 		campoSalario = new JFormattedTextField(formatter);
 		campoSalario.setValue(0.00);
-		botaoGravar = new JButton();
+		botaoGravar = new JButton("Salvar");
 		
 		labelTitulo.setBounds(20, 20, 660, 40);
 		labelNome.setBounds(150, 80, 400, 20);
